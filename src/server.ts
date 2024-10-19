@@ -7,7 +7,7 @@ const port = 1100;
 
 // GET
 app.get("/", (req: any, res: any) => {
-  res.send("Hello World..!");
+  res.send("Get Request called successfully..!");
 });
 
 //POST
